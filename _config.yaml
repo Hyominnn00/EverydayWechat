@@ -9,12 +9,12 @@ is_forced_switch: False
 is_auto_relay: True
 
 # 机器人渠道（1: 图灵机器人，2: 一个AI ,3 : 青云客)
-bot_channel: 3
+bot_channel: 1
 
 #图灵机器人(http://www.tuling123.com/)免费用户每天可用 100 条。
 #请在官网注册并申请 apikey ,userID。
 turing_conf:
-  apiKey: ''
+  apiKey: 'd7afbcdf2af24937963be9f747b595d7'
 
 
 # 一个 Al (http://www.yige.ai/),这个功能挺多的，朋友们自行申请，训练。
@@ -45,7 +45,7 @@ alarm_info:
   #True 开启定时提醒，False 关闭
   is_alarm: True
   #定时发送时间
-  alarm_timed: '11:08'
+  alarm_timed: '12:00'
 
 girlfriend_infos:
   - #女友微信昵称或者备注名，不能输入微信号。（如填：文件传输助手，发消息到文件传输助手，测试效果）
@@ -53,14 +53,14 @@ girlfriend_infos:
     #女友所在城市，用于发送天气。（可空）
     city_name: '长沙'
     # 格言渠道（1 : ONE●一个，2 : 词霸（每日英语，双语）3: 土味情话 4 : 一言，5：笑话，6 民国情书)(可空)
-    dictum_channel : 3
+    dictum_channel : 6
     # 从那天开始勾搭的(最终效果为：宝贝这是我们在一起的第 111 天)（可空）
     start_date: '2018-12-01'
     # 落款（可空）
-    sweet_words: '555'
+    sweet_words: ''
     # 落款参考：['厌物', '你脚下的蚂蚁', '专说骗人的诳话者', '黄天霸', 'cxk', '魔鬼的叔父', '哺乳类脊椎动物之一', '名字写在水上的人', 'BIG BAD WOLF', '你的兄弟']
     # 生日："1980-06-15" or "06-15"
-    birthday: "1998-12-14"
+    birthday: "12-14"
 
 #  如果你有多个好友需要发送，则参照这个样式，复制即可
 #  如不需要，则删除或注解下面所有的数据
